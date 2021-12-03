@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Magic 8 Ball</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="flexCenter">
+            <div class="eightBall" id="eightBalls">
+                <div class="flexCenter" style="position:absolute;flex-direction: column;">
+                    <div class="answerWrap">
+                        <h1 id="textAnswer">Ask your<br/>question.</h1>
+                        <!-- <button onclick="pickAnswer();" id="askButton">Ask.</button> -->
+                    </div>
+                    <div class="answerWrap" style="background:none!important;">
+                        <button onclick="pickAnswer();" id="askButton">Ask.</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
